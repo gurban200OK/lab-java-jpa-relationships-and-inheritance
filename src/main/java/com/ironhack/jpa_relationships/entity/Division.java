@@ -62,4 +62,12 @@ public class Division {
     public void setMembers(List<Member> members) {
         this.members = members;
     }
+
+    public Association getAssociation() {
+        return association;
+    }
+
+    public void setAssociation(Association association) {
+        this.association = association;
+    }
 }
